@@ -1,0 +1,53 @@
+.hd{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: darkseagreen;
+    display: flex;
+}
+.taskType{
+    display: flex;
+}
+.blank{
+    visibility: hidden;
+    flex:25%
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+p{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 20px;
+    flex:20%;
+    color:darkslategrey
+}
+.color{
+    color: darkslategrey;
+}
+label{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 10%
+}
+.i1{
+    width:30%;
+    height: 30px;
+    margin: 30px;
+}
+ul{
+    padding-top: 10px;  
+    list-style-type:none;
+}
+li{
+ display: inline;
+ padding-right:20px;
+ list-style-type:none;
+}
+input{
+  flex:2%;
+  
+}

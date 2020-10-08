@@ -1,0 +1,59 @@
+.th2{
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-right: 10px;
+    font-size:40px;
+}
+textarea{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 200px;
+    
+}
+.column{
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding:10px;
+    box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+    background-color:darkseagreen;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+    text-align: center;
+}
+.ti{
+    display: inline;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    width: 40%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('https://static.runoob.com/images/mix/searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+button{
+    background-color:forestgreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
